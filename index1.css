@@ -1,0 +1,70 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+header{
+    font-weight: bold;
+        letter-spacing:3px;
+        text-align: center;
+        padding: 20px;
+        background-color: aqua;
+    
+}
+.app-name{
+   
+    font-weight: bold;
+        letter-spacing:3px;
+        text-align: center;
+        padding: 20px;
+        background-color: aqua;
+        
+}
+.cart-icon{
+    display: flex;
+    font-size:25px;
+}
+.cart-icon .div{
+    height: 18px;
+    width:18px;
+    background-color: blue;
+    border-radius: 50%;
+    right:5px;
+    top:8px;
+    position: relative;
+    font-size: 13px;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    flex-direction: column;
+}
+ 
+.total{
+        font-weight: bold;
+        letter-spacing:3px;
+        text-align: center;
+        padding: 40px;
+        background-color: aqua;
+        
+}
+.prod-name{
+    font-weight: bold;
+    letter-spacing:3px;
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+   /* gap: 25px;
+    height: 20vh;*/
+    gap: 60px;
+    box-shadow: 0.6em 0.6em  #d2dce9;
+    border-radius: 30px; 
+    
+    padding: 70px;
+}
+.card{
+    gap: 60px;
+    padding:70px;
+}
